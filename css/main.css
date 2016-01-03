@@ -16,13 +16,12 @@ body{
 #mobileprofileimg{
   display: none;
   margin: 0 auto;
-  max-height: 250px;
-  width: auto;
+  margin-top: 5%;
 }
 .maroontxt{
   color: #611427;
 }
-#bannertxt{
+.bannertxt{
   padding-left: 7%;
 }
 #about{
@@ -77,16 +76,18 @@ p{
 
 /* Portrait */
 @media only screen and (max-width: 767px) {
-    #bannertxt > h1{ font-size: 2em;}
-    #bannertxt > h2{ font-size: 0.5em;}
+    .bannertxt > h1{ font-size: 2em;}
+    .bannertxt > h2{ font-size: 0.5em;}
     #profile{width: 110% !important;}
-    #bannertxt{  padding-left: 0%;  }
+    .bannertxt{  padding-left: 0%;  }
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
   .banner{display: none;}
   #profileimg{display: none; }
-  #bannertxt{  padding-left: 0%;  }
+  .bannertxt{  padding-left: 0%;  }
+  .bannertxt > h1{ font-size: 5em; text-align: center;}
+
   #about{ top: 0 !important; }
   #mobileprofileimg{ display: block; }
 
