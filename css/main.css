@@ -10,11 +10,6 @@
   position: absolute;
   overflow: hidden;
 }
-#mobileprofleimg{
-  visibility: hidden;
-  margin: 0 auto;
-  width:500px;;
-}
 
 .maroontxt{
   color: #611427;
@@ -81,11 +76,11 @@ p{
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
-  #bannertxt > h1{ font-size: 5em;}
+  #bannertxt > h1{ font-size: 2em;}
   #bannertxt > h2{ visibility: hidden;}
   #profile{width: 110% !important;}
-  #profileimg{ visibility: hidden; }
-  #mobileprofleimg{ visibility: visible !important; }
+  #profileimg{ height: 40%; width: auto; margin-left: -250px;}
+
   #bannertxt{  padding-left: 0%;  }
 
 }
