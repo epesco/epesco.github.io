@@ -2,7 +2,11 @@ body{
   overflow: hidden;
   background-color: rgba(221,220,197,0.15);
 }
-
+hr {
+    border: none;
+    height: 1px;
+    background-color: #1D2326; 
+}
 #containerbanner{
   z-index: 0;
   overflow: hidden;
@@ -31,6 +35,8 @@ background-image: url('../photos/profile.jpg');
 .maroontxt{
   color: #611427;
 }
+
+
 .bannertxt{
   padding-left: 7%;
   margin-top:5%;
