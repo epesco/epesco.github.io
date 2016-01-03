@@ -9,6 +9,9 @@
 #email{
   color: #611427;
 }
+#bannertxt{
+  padding-left: 3%;
+}
 .banner{
   z-index: 2;
   position: absolute;
@@ -53,11 +56,13 @@ p{
     h1{ font-size: 2em;}
     h2{ font-size: 0.5em;}
     #profile{width: 110% !important;}
+    #bannertxt{  padding-left: 0%;  }
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
   h1{ font-size: 2em;}
   h2{ visibility: hidden;}
   #profile{width: 110% !important;}
+  #bannertxt{  padding-left: 0%;  }
 
 }
