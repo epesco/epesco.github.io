@@ -13,7 +13,12 @@ body{
   position: absolute;
   overflow: hidden;
 }
-
+#mobileprofileimg{
+  display: none;
+  margin: 0 auto;
+  height: 30%;
+  width: auto;
+}
 .maroontxt{
   color: #611427;
 }
@@ -79,9 +84,10 @@ p{
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
-  #bannertxt > h1{ font-size: 3.5em; margin-top: 20%; text-align: right;}
-  #bannertxt > h2{ visibility: hidden;}
-  #profile{width: 110% !important;}
-  #profileimg{ height: 40% !important; width: auto !important; margin-left: -200px;}
+  .banner{display: none;}
+  #profileimg{display: none; }
   #bannertxt{  padding-left: 0%;  }
+  #about{ top: 0 !important; }
+  #mobileprofileimg{ display: block; }
+
 }
