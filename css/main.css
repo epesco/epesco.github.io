@@ -82,6 +82,6 @@ p{
   #bannertxt > h1{ font-size: 3.5em; margin-top: 20%; text-align: right;}
   #bannertxt > h2{ visibility: hidden;}
   #profile{width: 110% !important;}
-  #profileimg{ height: 40%; width: auto; margin-left: -200px;}
+  #profileimg{ height: 40% !important; width: auto !important; margin-left: -200px;}
   #bannertxt{  padding-left: 0%;  }
 }
