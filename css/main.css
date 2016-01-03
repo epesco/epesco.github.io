@@ -4,34 +4,40 @@
   z-index: 1;
   position: absolute;
 }
+#email{
+  color: #611427;
+}
 .banner{
   z-index: 2;
   position: absolute;
   min-width: 100%;
-  margin-top: 7%;
+  margin-top: 6%;
 
 }
 h1 {
   font-family: 'Roboto Condensed';
-  font-size: 5em;
+  font-size: 7em;
+  letter-spacing: 2px;
   color: #1D2326;
   text-align: center;
 }
 
 h2{
-font-family: 'Droid Sans Mono', ;
+font-family: 'Merriweather', serif;
   text-transform: uppercase;
   letter-spacing: -1px;
-  font-size: 2em;
+  font-size: 1.1em;
   text-align: center;
+  margin-top: 0px !important;
+  word-spacing: -1px !important;
+}
 
+p{
+
+  font-family: 'Open Sans', sans-serif;
 }
-@media only screen and (max-width: 500px) {
-    .banner{margin-top: 0px !important;}
-    h1{ font-size: 1em;}
-    h2{ font-size: 0.5em;}
-   body { font-size: 2em; }
-}
+
+
 
 /* ----------- iPhone 6 ----------- */
 
@@ -41,7 +47,7 @@ font-family: 'Droid Sans Mono', ;
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .banner{margin-top: 0px !important;}
-    h1{ font-size: 1em;}
+    h1{ font-size: 2em;}
     h2{ font-size: 0.5em;}
    body { font-size: 2em; }
 }
