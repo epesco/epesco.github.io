@@ -1,18 +1,26 @@
 body{
   overflow: hidden;
+  background-color: rgba(221,220,197,0.15);
 }
+
 #containerbanner{
   z-index: 0;
   overflow: hidden;
   height: auto;
 }
-#profileimg{
-  width: 100%;
-  height: auto;
-  z-index: 1;
-  position: absolute;
-  overflow: hidden;
-  margin-top: -25px;
+
+.imgheader{
+  background-color: #808080;
+background: no-repeat center center;
+background-attachment: scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+background-image: url('../photos/profile.jpg');
+}
+#mobilebanner{
+  display: none;
 }
 #mobileprofileimg{
   display: none;
@@ -24,6 +32,8 @@ body{
 }
 .bannertxt{
   padding-left: 7%;
+  margin-top:5%;
+  margin-bottom: 5%;
 }
 .socialicon{
   height:40px;
@@ -40,8 +50,20 @@ body{
   display: block;
   clear: both;
   position: relative;
-  border-top: 5px;
+  padding: 1%;
+/*  border-top: solid;
   border-color: #1D2326;
+  border-width: 15px;*/
+}
+#education{
+  display: block;
+  clear: both;
+  position: relative;
+  padding: 1%;
+
+}
+#about > h1 {
+  font-size: 5em;
 }
 
 .clearfix{
@@ -61,11 +83,15 @@ body{
   padding: 0 !important;
 }
 .bannertxt > h1 {
-  font-family: 'Roboto Condensed';
   font-size: 7em;
-  letter-spacing: 3px;
+}
+h1{
+  font-family: 'Roboto Condensed';
   color: #1D2326;
   text-align: center;
+
+  letter-spacing: 3px;
+
 }
 
 .bannertxt > h2{
@@ -93,11 +119,10 @@ p{
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
-  .banner{display: none;}
-  #profileimg{display: none; }
+  .imgheader{display: none;}
   .bannertxt{  padding-left: 0%;  }
   .bannertxt > h1{ font-size: 3em; text-align: center;}
-
+  #mobilebanner{ display:block;}
   #about{ top: 0 !important; }
   #mobileprofileimg{ display: block; }
 
