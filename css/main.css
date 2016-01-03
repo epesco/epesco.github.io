@@ -52,7 +52,7 @@ p{
 @media only screen and (max-width: 767px) {
     h1{ font-size: 7em;}
     h2{ font-size: 2em;}
-    body{width:1080px;}
+    body{width:105%;}
 
 }
 
@@ -60,6 +60,6 @@ p{
   .banner{margin-top: 8% !important;}
   h1{ font-size: 11em;}
   h2{ visibility: hidden;}
-  body{width:1080px;}
+  body{width:105%;}
 
 }
