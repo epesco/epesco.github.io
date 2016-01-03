@@ -40,16 +40,18 @@ p{
 
 
 /* Phones */
+
+/* Portrait */
 @media only screen and (max-width: 767px) {
     .banner{margin-top: 0px !important;}
     h1{ font-size: 7em;}
-    h2{ visibility: hidden; }
+    h2{ font-size: 2em;}
    body { font-size: 0.5em; }
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
-  .banner{margin-top: 0px !important;}
-  h1{ font-size: 5em;}
+  .banner{margin-top: 9% !important;}
+  h1{ font-size: 11em;}
   h2{ visibility: hidden;}
  body { font-size: 0.25em; }
 }
