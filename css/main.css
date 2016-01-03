@@ -48,7 +48,7 @@ p{
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
-  .banner{margin-top: 9% !important;}
+  .banner{margin-top: 8% !important;}
   h1{ font-size: 11em;}
   h2{ visibility: hidden;}
  body { font-size: 0.25em; }
