@@ -39,6 +39,9 @@ background-image: url('../photos/profile.jpg');
   color: #611427;
 
 }
+#cscourses{
+  display:none;
+}
 #resume{
   text-align: center;
   font-weight: 400;

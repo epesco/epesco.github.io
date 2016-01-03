@@ -12,3 +12,8 @@ var docwidth = jQuery(document).width()/2
 var strdocwidth = String(docwidth) + "px";
 console.log(strdocwidth)
 $('#mobileprofileimg').css('width', strdocwidth);
+
+
+$("#showcs").click(function(){
+    $("#cscourses").css("display","block");
+});
