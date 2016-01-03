@@ -50,11 +50,11 @@ p{
 
 /* Portrait */
 @media only screen and (max-width: 767px) {
-    h1{ font-size: 2em;}
-    h2{ font-size: 1em;}
+    h1{ font-size: 1em;}
+    h2{ font-size: 0.5em;}
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
-  h1{ font-size: 3em;}
+  h1{ font-size: 2em;}
   h2{ visibility: hidden;}
 }
