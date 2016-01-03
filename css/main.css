@@ -13,7 +13,6 @@ body{
   position: absolute;
   overflow: hidden;
   margin-top: -25px;
-
 }
 #mobileprofileimg{
   display: none;
@@ -25,6 +24,17 @@ body{
 }
 .bannertxt{
   padding-left: 7%;
+}
+.socialicon{
+  height:40px;
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.socialrow{
+  margin: 0 auto;
+  display: block;
+  width: 190px;
 }
 #about{
   display: block;
@@ -41,7 +51,6 @@ body{
   z-index: 2;
   min-width: 100% !important;
   height:40%;
-  margin-top: 4%;
   left:0;
   right:0;
   position: absolute;
