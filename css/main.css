@@ -10,6 +10,11 @@
   position: absolute;
   overflow: hidden;
 }
+#mobileprofleimg{
+  visibility: hidden;
+  margin: 0 auto;
+  width:500px;;
+}
 
 .maroontxt{
   color: #611427;
@@ -79,7 +84,8 @@ p{
   #bannertxt > h1{ font-size: 5em;}
   #bannertxt > h2{ visibility: hidden;}
   #profile{width: 110% !important;}
-
+  #profileimg{ visibility: hidden; }
+  #mobileprofleimg{ visibility: visible !important; }
   #bannertxt{  padding-left: 0%;  }
 
 }
