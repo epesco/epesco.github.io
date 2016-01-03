@@ -1,4 +1,47 @@
 #profile{
   width:100%;
   overflow: hidden;
+  z-index: 1;
+  position: absolute;
+}
+.banner{
+  z-index: 2;
+  position: absolute;
+  min-width: 100%;
+  margin-top: 7%;
+
+}
+h1 {
+  font-family: 'Roboto Condensed';
+  font-size: 5em;
+  color: #1D2326;
+  text-align: center;
+}
+
+h2{
+font-family: 'Droid Sans Mono', ;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-size: 2em;
+  text-align: center;
+
+}
+@media only screen and (max-width: 500px) {
+    .banner{margin-top!}
+    h1{ font-size: 2em;}
+    h2{ font-size: 0.5em;}
+   body { font-size: 2em; }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .banner{margin-top!}
+    h1{ font-size: 2em;}
+    h2{ font-size: 0.5em;}
+   body { font-size: 2em; }
 }
