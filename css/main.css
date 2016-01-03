@@ -1,12 +1,14 @@
 #containerbanner{
   z-index: 0;
   position: relative;
+  overflow: hidden;
 }
 #profileimg{
   width: 100%;
   height: auto;
   z-index: 1;
   position: absolute;
+  overflow: hidden;
 }
 
 .maroontxt{
@@ -74,7 +76,7 @@ p{
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
-  #bannertxt > h1{ font-size: 2em;}
+  #bannertxt > h1{ font-size: 5em;}
   #bannertxt > h2{ visibility: hidden;}
   #profile{width: 110% !important;}
   #profileimg{ height: 40%; width: auto; margin-left: -250px;}
