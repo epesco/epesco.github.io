@@ -126,11 +126,18 @@ font-family: 'Merriweather', serif;
   word-spacing: -1px !important;
 }
 
-p{
+p, li{
   font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
-
+.ulheader, .course{
+  font-weight: 600;
+}
+ul{
+  list-style: none;
+  text-transform: uppercase;
+}
 /* Phones */
 
 /* Portrait */

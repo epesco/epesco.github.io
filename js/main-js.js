@@ -15,5 +15,5 @@ $('#mobileprofileimg').css('width', strdocwidth);
 
 
 $("#showcs").click(function(){
-    $("#cscourses").css("display","block");
+    $("#cscourses").toggle();
 });
