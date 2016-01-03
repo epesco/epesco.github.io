@@ -12,6 +12,8 @@ body{
   z-index: 1;
   position: absolute;
   overflow: hidden;
+  margin-top: -25px;
+
 }
 #mobileprofileimg{
   display: none;
@@ -49,7 +51,7 @@ body{
   margin: 0 !important;
   padding: 0 !important;
 }
-#bannertxt > h1 {
+.bannertxt > h1 {
   font-family: 'Roboto Condensed';
   font-size: 7em;
   letter-spacing: 3px;
@@ -57,7 +59,7 @@ body{
   text-align: center;
 }
 
-#bannertxt > h2{
+.bannertxt > h2{
 font-family: 'Merriweather', serif;
   text-transform: uppercase;
   font-size: 1.1em;
@@ -86,7 +88,7 @@ p{
   .banner{display: none;}
   #profileimg{display: none; }
   .bannertxt{  padding-left: 0%;  }
-  .bannertxt > h1{ font-size: 5em; text-align: center;}
+  .bannertxt > h1{ font-size: 3em; text-align: center;}
 
   #about{ top: 0 !important; }
   #mobileprofileimg{ display: block; }
