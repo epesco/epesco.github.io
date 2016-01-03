@@ -1,11 +1,11 @@
 body{
-  overflow: hidden;
   background-color: rgba(221,220,197,0.15);
 }
 hr {
     border: none;
     height: 1px;
-    background-color: #1D2326; 
+    background-color: #1D2326;
+    width: 70%;
 }
 #containerbanner{
   z-index: 0;
@@ -32,11 +32,18 @@ background-image: url('../photos/profile.jpg');
   margin: 0 auto;
   margin-top: 5%;
 }
-.maroontxt{
+.maroontxt, a:hover{
   color: #611427;
 }
+#resume > a {
+  color: #611427;
 
-
+}
+#resume{
+  text-align: center;
+  font-weight: 400;
+  padding-top: 1%;
+}
 .bannertxt{
   padding-left: 7%;
   margin-top:5%;
@@ -57,7 +64,7 @@ background-image: url('../photos/profile.jpg');
   display: block;
   clear: both;
   position: relative;
-  padding: 1%;
+
 /*  border-top: solid;
   border-color: #1D2326;
   border-width: 15px;*/
@@ -68,6 +75,12 @@ background-image: url('../photos/profile.jpg');
   position: relative;
   padding: 1%;
 
+}
+#experience{
+  display: block;
+  clear: both;
+  position: relative;
+  padding: 1%;
 }
 #about > h1 {
   font-size: 5em;
