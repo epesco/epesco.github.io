@@ -1,31 +1,46 @@
-#profile{
-  width:100%;
-  overflow: hidden;
+#containerbanner{
+  z-index: 0;
+  position: relative;
+}
+#profileimg{
+  width: 100%;
+  height: auto;
   z-index: 1;
   position: absolute;
-  left:0;
-  right:0;
 }
-#email{
+
+.maroontxt{
   color: #611427;
 }
 #bannertxt{
-  padding-left: 3%;
+  padding-left: 7%;
+}
+#about{
+  display: block;
+  clear: both;
+  position: relative;
+  border-top: 5px;
+  border-color: #1D2326;
+}
+
+.clearfix{
+  overflow: auto;
 }
 .banner{
   z-index: 2;
-  position: absolute;
   min-width: 100%;
-  margin-top: 6%;
+  height:40%;
+  margin-top: 4%;
   left:0;
   right:0;
+  position: absolute;
 
 }
 body{
   margin: 0 !important;
   padding: 0 !important;
 }
-h1 {
+#bannertxt > h1 {
   font-family: 'Roboto Condensed';
   font-size: 7em;
   letter-spacing: 3px;
@@ -33,7 +48,7 @@ h1 {
   text-align: center;
 }
 
-h2{
+#bannertxt > h2{
 font-family: 'Merriweather', serif;
   text-transform: uppercase;
   font-size: 1.1em;
@@ -43,7 +58,6 @@ font-family: 'Merriweather', serif;
 }
 
 p{
-
   font-family: 'Open Sans', sans-serif;
 }
 
