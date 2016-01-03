@@ -21,6 +21,7 @@ background-image: url('../photos/profile.jpg');
 }
 #mobilebanner{
   display: none;
+  margin-bottom: 0px;
 }
 #mobileprofileimg{
   display: none;
@@ -123,7 +124,6 @@ p{
   .bannertxt{  padding-left: 0%;  }
   .bannertxt > h1{ font-size: 3em; text-align: center;}
   #mobilebanner{ display:block;}
-  #about{ top: 0 !important; }
   #mobileprofileimg{ display: block; }
 
 }
