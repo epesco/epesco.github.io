@@ -39,15 +39,17 @@ p{
 
 
 
-/* ----------- iPhone 6 ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+/* Phones */
+@media only screen and (max-width: 767px) {
     .banner{margin-top: 0px !important;}
-    h1{ font-size: 2em;}
+    h1{ font-size: 1em;}
     h2{ font-size: 0.5em;}
-   body { font-size: 2em; }
+   body { font-size: 0.5em; }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  .banner{margin-top: 0px !important;}
+  h1{ font-size: 0.5em;}
+  h2{ font-size: 0.25em;}
+ body { font-size: 0.25em; }
 }
