@@ -16,7 +16,7 @@ body{
 #mobileprofileimg{
   display: none;
   margin: 0 auto;
-  height: 30%;
+  max-height: 300px;
   width: auto;
 }
 .maroontxt{
