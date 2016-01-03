@@ -67,16 +67,18 @@ p{
 
 /* Portrait */
 @media only screen and (max-width: 767px) {
-    h1{ font-size: 2em;}
-    h2{ font-size: 0.5em;}
+    #bannertxt > h1{ font-size: 2em;}
+    #bannertxt > h2{ font-size: 0.5em;}
     #profile{width: 110% !important;}
     #bannertxt{  padding-left: 0%;  }
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
-  h1{ font-size: 2em;}
-  h2{ visibility: hidden;}
+  #bannertxt > h1{ font-size: 2em;}
+  #bannertxt > h2{ visibility: hidden;}
   #profile{width: 110% !important;}
+  #profileimg{ height: 40%; width: auto; margin-left: -250px;}
+
   #bannertxt{  padding-left: 0%;  }
 
 }
