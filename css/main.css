@@ -52,12 +52,10 @@ p{
 @media only screen and (max-width: 767px) {
     h1{ font-size: 7em;}
     h2{ font-size: 2em;}
-   body { font-size: 0.5em; }
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
   .banner{margin-top: 8% !important;}
   h1{ font-size: 11em;}
   h2{ visibility: hidden;}
- body { font-size: 0.25em; }
 }
