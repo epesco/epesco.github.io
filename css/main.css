@@ -44,6 +44,9 @@ background-image: url('../photos/profile.jpg');
   font-weight: 400;
   padding-top: 1%;
 }
+.orgs{
+  background-color: rgba(221,220,197,0.25);
+}
 .bannertxt{
   padding-left: 7%;
   margin-top:5%;
@@ -109,18 +112,40 @@ h1{
   font-family: 'Roboto Condensed';
   color: #1D2326;
   text-align: center;
-
   letter-spacing: 3px;
-
 }
 
-.bannertxt > h2{
-font-family: 'Merriweather', serif;
-  text-transform: uppercase;
-  font-size: 1.1em;
+h2{
+  font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+      text-align: center;
+      word-spacing: -1px !important;
+}
+h3{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 1em;
+  margin-top: 10px;
   text-align: center;
+}
+#upeinfo, #aphiinfo{
+  text-align: center;
+  display: none;
+}
+.orgphoto{
+  width: 50%;
+  margin-left: 25%;
+  height: auto;
+}
+.bannertxt > h2{
   margin-top: 0px !important;
-  word-spacing: -1px !important;
+
+  font-size: 1.1em;
+
+}
+.orgs > h2{
+  font-size: 1.5em;
 }
 
 p, li{
@@ -128,12 +153,18 @@ p, li{
   font-weight: 400;
 }
 
-.ulheader, .course{
+.ulheader, .course, b{
   font-weight: 600;
 }
 ul{
   list-style: none;
   text-transform: uppercase;
+}
+.text-left{
+  text-align: left !important;
+}
+.text-right{
+  text-align: right !important;
 }
 /* Phones */
 

@@ -26,3 +26,9 @@ $("#showhum").click(function(){
 $("#showsci").click(function(){
     $("#scicourses").toggle();
 });
+$("#showupe").click(function(){
+    $("#upeinfo").toggle();
+});
+$("#showaphi").click(function(){
+    $("#aphiinfo").toggle();
+});
