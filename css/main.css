@@ -32,14 +32,11 @@ background-image: url('../photos/profile.jpg');
   margin: 0 auto;
   margin-top: 5%;
 }
-.maroontxt, a:hover, li:hover{
+.maroontxt, a:hover, li:hover, #resume > a{
   color: #611427;
 }
-#resume > a {
-  color: #611427;
 
-}
-#cscourses, #mathcourses{
+#cscourses, #mathcourses, #humcourses, #scicourses{
   display:none;
 }
 #resume{

@@ -20,3 +20,9 @@ $("#showcs").click(function(){
 $("#showmath").click(function(){
     $("#mathcourses").toggle();
 });
+$("#showhum").click(function(){
+    $("#humcourses").toggle();
+});
+$("#showsci").click(function(){
+    $("#scicourses").toggle();
+});
