@@ -133,6 +133,9 @@ h3{
   text-align: center;
   display: none;
 }
+.lead{
+  margin-bottom: 10px;
+}
 .orgphoto{
   width: 50%;
   margin-left: 25%;
