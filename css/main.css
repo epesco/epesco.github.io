@@ -44,7 +44,7 @@ background-image: url('../photos/profile.jpg');
   font-weight: 400;
   padding-top: 1%;
 }
-.orgs{
+.orgs, .jobs{
   background-color: rgba(221,220,197,0.25);
 }
 .bannertxt{
@@ -129,10 +129,14 @@ h3{
   margin-top: 10px;
   text-align: center;
 }
-#upeinfo, #aphiinfo{
+#upeinfo, #aphiinfo, #jobinfo{
   text-align: center;
   display: none;
 }
+#arinfo, #tfsinfo{
+  display: none;
+}
+
 .lead{
   margin-bottom: 10px;
 }
@@ -147,7 +151,7 @@ h3{
   font-size: 1.1em;
 
 }
-.orgs > h2{
+.orgs > h2, .jobs > h2{
   font-size: 1.5em;
 }
 

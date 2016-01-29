@@ -13,6 +13,11 @@ var strdocwidth = String(docwidth) + "px";
 console.log(strdocwidth)
 $('#mobileprofileimg').css('width', strdocwidth);
 
+/* TODO: Optimize by passing in class name, parsing for after "show", appending "info", toggle that attribute
+function toggleView(className){
+  console.log(className);
+}
+*/
 
 $("#showcs").click(function(){
     $("#cscourses").toggle();
@@ -31,4 +36,12 @@ $("#showupe").click(function(){
 });
 $("#showaphi").click(function(){
     $("#aphiinfo").toggle();
+});
+
+$("#showar").click(function(){
+    $("#arinfo").toggle();
+});
+
+$("#showtfs").click(function(){
+    $("#tfsinfo").toggle();
 });
