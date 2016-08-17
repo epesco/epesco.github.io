@@ -12,7 +12,6 @@ hr {
   overflow: hidden;
   height: auto;
 }
-
 .imgheader{
   background-color: #808080;
 background: no-repeat center center;
@@ -35,7 +34,6 @@ background-image: url('../photos/profile.jpg');
 .maroontxt, a:hover, li:hover, #resume > a{
   color: #611427;
 }
-
 #cscourses, #mathcourses, #humcourses, #scicourses{
   display:none;
 }
@@ -67,23 +65,13 @@ background-image: url('../photos/profile.jpg');
   display: block;
   clear: both;
   position: relative;
-
-/*  border-top: solid;
-  border-color: #1D2326;
-  border-width: 15px;*/
 }
-#education{
+#education, #experience{
   display: block;
   clear: both;
   position: relative;
   padding: 1%;
 
-}
-#experience{
-  display: block;
-  clear: both;
-  position: relative;
-  padding: 1%;
 }
 #about > h1 {
   font-size: 5em;
@@ -173,7 +161,6 @@ ul{
 .text-right{
   text-align: right !important;
 }
-/* Phones */
 
 /* Portrait */
 @media only screen and (max-width: 767px) {
