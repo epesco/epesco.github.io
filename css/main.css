@@ -1,180 +1,44 @@
 body{
-  background-color: rgba(221,220,197,0.15);
-}
-hr {
-    border: none;
-    height: 1px;
-    background-color: #1D2326;
-    width: 70%;
-}
-#containerbanner{
-  z-index: 0;
-  overflow: hidden;
-  height: auto;
-}
-.imgheader{
-  background-color: #808080;
-background: no-repeat center center;
-background-attachment: scroll;
--webkit-background-size: cover;
--moz-background-size: cover;
-background-size: cover;
--o-background-size: cover;
-background-image: url('../photos/profile.jpg');
-}
-#mobilebanner{
-  display: none;
-  margin-bottom: 0px;
-}
-#mobileprofileimg{
-  display: none;
-  margin: 0 auto;
-  margin-top: 5%;
-}
-.maroontxt, a:hover, li:hover, #resume > a{
-  color: #611427;
-}
-#cscourses, #mathcourses, #humcourses, #scicourses{
-  display:none;
-}
-#resume{
-  text-align: center;
-  font-weight: 400;
-  padding-top: 1%;
-}
-.orgs, .jobs{
-  background-color: rgba(221,220,197,0.25);
-}
-.bannertxt{
-  padding-left: 7%;
-  margin-top:5%;
-  margin-bottom: 5%;
+  background-color: #f1f3f4;
 }
 .socialicon{
-  height:40px;
-  width: 40px;
-  margin-left: 10px;
-  margin-right: 10px;
+  height:64px;
+  width: 64px;
 }
 .socialrow{
   margin: 0 auto;
   display: block;
-  width: 190px;
+  width: 200px;
+  margin-bottom: 15px;
 }
-#about{
-  display: block;
-  clear: both;
-  position: relative;
-}
-#education, #experience{
-  display: block;
-  clear: both;
-  position: relative;
-  padding: 1%;
-
-}
-#about > h1 {
-  font-size: 5em;
-}
-
-.clearfix{
-  overflow: auto;
-}
-.banner{
-  z-index: 2;
-  min-width: 100% !important;
-  height:40%;
-  left:0;
-  right:0;
-  position: absolute;
-
-}
-body{
-  margin: 0 !important;
-  padding: 0 !important;
-}
-.bannertxt > h1 {
-  font-size: 7em;
-}
-h1{
-  font-family: 'Roboto Condensed';
-  color: #1D2326;
-  text-align: center;
-  letter-spacing: 3px;
-}
-
 h2{
-  font-family: 'Merriweather', serif;
+  font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
       text-align: center;
-      word-spacing: -1px !important;
+      letter-spacing: 0.20em;
+      font-weight: 400;
+      color: #0b0d0f;
+      margin-top: 15px;
+      font-size: 3em;
 }
-h3{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  letter-spacing: 2px;
-  font-size: 1em;
-  margin-top: 10px;
-  text-align: center;
-}
-#upeinfo, #aphiinfo, #jobinfo{
-  text-align: center;
-  display: none;
-}
-#arinfo, #tfsinfo{
-  display: none;
+p{
+  font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 0.25em;
+      font-weight: 400;
+      color: #0b0d0f;
+      margin-top: 15px;
+      margin-bottom: 15px;
 }
 
-.lead{
-  margin-bottom: 10px;
-}
-.orgphoto{
-  width: 50%;
-  margin-left: 25%;
+#innerBlock{
+  outline: 1px solid #0b0d0f;
+  outline-offset: 10px;
+  background-color: #c8cfd6;
+  z-index: 0;
   height: auto;
 }
-.bannertxt > h2{
-  margin-top: 0px !important;
-
-  font-size: 1.1em;
-
-}
-.orgs > h2, .jobs > h2{
-  font-size: 1.5em;
-}
-
-p, li{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-}
-
-.ulheader, .course, b{
-  font-weight: 600;
-}
-ul{
-  list-style: none;
-  text-transform: uppercase;
-}
-.text-left{
-  text-align: left !important;
-}
-.text-right{
-  text-align: right !important;
-}
-
-/* Portrait */
-@media only screen and (max-width: 767px) {
-    .bannertxt > h1{ font-size: 2em;}
-    .bannertxt > h2{ font-size: 0.5em;}
-    #profile{width: 110% !important;}
-    .bannertxt{  padding-left: 0%;  }
-}
-
-@media only screen and (max-width: 767px) and (orientation: portrait) {
-  .imgheader{display: none;}
-  .bannertxt{  padding-left: 0%;  }
-  .bannertxt > h1{ font-size: 3em; text-align: center;}
-  #mobilebanner{ display:block;}
-  #mobileprofileimg{ display: block; }
-
+#parent{
+  margin-top: 17%;
 }
