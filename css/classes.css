@@ -1,0 +1,100 @@
+body {
+  background-color: #1D2326;
+}
+
+th {
+  background-color: #6A6A61;
+  color: #DDDCC5;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+tr {
+  color: #1D2326;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background: #DDDCC5;
+}
+tr:nth-child(odd) {
+  background: #FFF;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+table.center {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 3.0em;
+  color: #DDDCC5;
+  text-transform: uppercase;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 1.5em;
+  text-align: center;
+  color: #DDDCC5;
+  text-transform: uppercase;
+}
+li {
+  font-family: 'Open Sans', sans-serif;
+  color: #DDDCC5;
+}
+.cs{
+  background-color: #4AD9D9;
+}
+.math{
+  background-color: #F2385A;
+}
+.science{
+  background-color: #F5A503;
+}
+.free{
+  background-color: #36B1BF;
+}
+.hua{
+  background-color: #AEEE00;
+}
+.iqp{
+  background-color: #8e44ad;
+}
+.social{
+  background-color: #7E566B;
+}
+.tag-pill{
+  font-family: 'Open Sans', sans-serif;
+}
+#courseList, #csRequirements {
+  background-color: #272F33;
+  padding: 10px;
+  height: 600px;
+  overflow-y: auto;
+}
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-button {
+  background: #272F33;
+}
+::-webkit-scrollbar-thumb {
+  background: #6A6A61;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #272F33;
+}
+::-webkit-scrollbar-track {
+  background: #272F33;
+  border: 0px none #272F33;
+  border-radius: 50px;
+}
