@@ -1,6 +1,10 @@
 body{
   background-color: #f1f3f4;
 }
+body, html {
+  height: 100%;
+  display: grid;
+}
 .socialicon{
   height:64px;
   width: 64px;
@@ -33,12 +37,9 @@ p{
 }
 
 #innerBlock{
-  outline: 1px solid #0b0d0f;
-  outline-offset: 10px;
-  background-color: #c8cfd6;
+  background-color: #FABE58;
   z-index: 0;
   height: auto;
-}
-#parent{
-  margin-top: 17%;
+  box-shadow: 10px 10px #000000;
+  margin: auto;
 }
